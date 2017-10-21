@@ -4,7 +4,7 @@ Torrent RSS downloader with streaming capability
 This is my first attempt at creating a program outside of bash. 
 It's intended to catch an rss feed's data at a specified interval, parse for matches to keyword, and download the first match only. 
 We expect this to be a series, hence a start sequence ex [s02e05] which increments after finding a match to either the next episode in same season, else first episode of next season.
-Accepted client will be using transmission, with the RPC API in order to add the torrent. 
+I'm using transmission so that's the client we'll interact with using RPC API. 
 
 First version is more a proof of concept with no UI, or streaming capacity.
 
